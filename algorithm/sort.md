@@ -1,6 +1,6 @@
 # 排序算法
 
-### 冒泡排序
+## 冒泡排序
 双层循环，平均时间复杂度为O(n²)
 ```javascript
 function bubbleSort(arr){
@@ -18,7 +18,7 @@ function bubbleSort(arr){
 }
 ```
 
-###选择排序
+##选择排序
 平均时间复杂度为O(n²)
 ```javascript
 function selectSort(arr){
@@ -45,7 +45,7 @@ function selectSort(arr){
 }
 ```
 
-###插入排序
+##插入排序
 是稳定排序，时间复杂度都是O(n²)
 ```javascript
 function insertSort(arr){
@@ -64,7 +64,7 @@ function insertSort(arr){
 }
 ```
 
-###归并排序
+##归并排序
 第一种：自上而下的递归实现，调用mergeSort函数2n-1次，但会造成栈溢出的错误。平均时间复杂度为O(nlogn)，空间复杂度为O(n)
 ```javascript
 function mergeSort(arr){
